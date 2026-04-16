@@ -1,6 +1,23 @@
 # bigbat
 
-`bigbat` 是一个行为复刻、代码重写的 Genspark 反向代理服务，对外提供 OpenAI 兼容 API，便于接入 OpenClaw、NextChat、one-api 等客户端。
+`bigbat` Genspark API Proxy
+
+This project is a reverse proxy tool that exposes Genspark's unlimited-access top-tier models — including Claude Opus 4.6 and ChatGPT 5.4 Pro — as standard callable API endpoints.
+
+By routing requests through Genspark's web interface, you can integrate these models into any API-compatible client without managing individual subscriptions or usage limits.
+
+Compatibility: Successfully tested for connection with Claude Code, OpenCode, and similar AI coding agents. While the integration works and requests are routed correctly, real-world output quality and reliability have not been systematically evaluated.
+
+Disclaimer: This project depends on Genspark's current protocol and session behavior. It may break at any time if Genspark modifies their API, authentication flow, or terms of service. Use at your own discretion.
+
+
+这个项目是一个反向代理工具，将 Genspark 平台上无限量使用的顶级模型——包括 Claude Opus 4.6 和 ChatGPT 5.4 Pro——暴露为标准的可调用 API 接口。
+
+通过代理 Genspark 的网页请求，您可以将这些模型接入任何兼容标准 API 格式的客户端，而不需要单独管理各平台的订阅或用量限制。
+
+兼容性： 已成功与 Claude Code、OpenCode 及类似 AI 编程体完成对接，请求可以正常路由，但实际输出效果尚未经过系统性测试。
+
+免责声明： 本项目依赖于 Genspark 当前的协议和会话机制，若 Genspark 修改 API、鉴权流程或服务条款，本工具随时可能失效。请自行评估风险后使用。
 
 ## 1. 核心能力
 

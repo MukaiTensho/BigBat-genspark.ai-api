@@ -1,0 +1,13 @@
+services:
+  bigbat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bigbat
+    restart: unless-stopped
+    ports:
+      - "7055:7055"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data

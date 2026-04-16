@@ -19,6 +19,9 @@ Disclaimer: This project depends on Genspark's current protocol and session beha
 
 免责声明： 本项目依赖于 Genspark 当前的协议和会话机制，若 Genspark 修改 API、鉴权流程或服务条款，本工具随时可能失效。请自行评估风险后使用。
 
+<img width="1440" height="1080" alt="4f507b0e2ee2c217f0d0f5c4a57693ce" src="https://github.com/user-attachments/assets/c9406abd-9986-4a43-a0a3-460982aee1f0" />
+
+
 ## 1. 核心能力
 
 - OpenAI 兼容接口：
